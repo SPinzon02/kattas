@@ -2,6 +2,8 @@
 
 create database kattasWeb character set utf8mb4;
 
+use kattasweb;
+select * from insumos;
 
 -- use kattasWeb;
 

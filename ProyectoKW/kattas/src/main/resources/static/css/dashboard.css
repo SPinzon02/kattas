@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
 
-* {
-  font-family: 'ui-sans-serif', sans-serif;
-}
+
 
 * {
   font-family: 'ui-sans-serif', sans-serif;
@@ -352,10 +350,14 @@ input[type="number"] {
 
 /*Sección de tabla*/
 .tabular--wrapper { /*titulo*/
+  display: flex;
+  justify-content: space-between;
   background: var(--color-fondo2);
   margin-top: 1rem;
   border-radius: 10px;
   padding: 2rem;
+  
+
 }
 
 
@@ -572,3 +574,14 @@ tfoot td {
   align-items: center;
 
 }   
+
+#openModalButton3{
+  display: flex;
+  gap: 5px;
+  background-color: #01C38E;
+  padding: 15px;
+  font-family: 'ui-sans-serif', sans-serif;
+  color: #fff;
+  border-radius: 50px;
+
+}
